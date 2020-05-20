@@ -3,7 +3,7 @@ package apiserver
 type APIServer struct {}
 
 func New() *APIServer{
-	return &APIServer
+	return &APIServer{}
 }
 
 func (s *APIServer) Start() error  {

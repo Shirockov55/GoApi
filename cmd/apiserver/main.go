@@ -2,7 +2,7 @@
 package main
 
 import (
-	"./internal/app/apiserver/apiserver.go"
+	"github.com/Shirockov55/GoApi/internal/App/apiserver"
 )
 
 func main(){
