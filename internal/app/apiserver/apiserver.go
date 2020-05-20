@@ -6,7 +6,7 @@ type APIServer struct {
 
 func New(config *Config) *APIServer{
 	return &APIServer{
-		config: Config
+		config: config,
 	}
 }
 
